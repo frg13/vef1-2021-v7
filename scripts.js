@@ -197,7 +197,7 @@ function play() {
     else if (playerWins > (nrOfRounds / 2)) {
       wins++;
       gameAmount++;
-      return alert('Leikmaður sigraði viðureignina! Innilegar hamingjuóskir!')
+      return alert('Leikmaður sigraði viðureignina!')
       //return console.log('Leikmaður sigraði viðureignina!');
     }
   }
