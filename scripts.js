@@ -15,16 +15,6 @@ let losses = 0;
 /** Global breyta sem heldur utan um fjölda leikja */
 let gameAmount = 0;
 
-/** Global strengir fyrir skilaboð í alert-gluggum */
-const playerSkaeri = 'Þú valdir skæri';
-const playerBlad = 'Þú valdir blað';
-const playerSteinn = 'Þú valdir stein';
-const computerSkaeri = 'Tölvan valdi skæri';
-const computerBlad = 'Tölvan valdi blað';
-const computerSteinn = 'Tölvan valdi stein';
-const playerWin = 'Þú sigraðir!';
-const computerWin = 'Tölvan sigraði!';
-
 /**
  * Athugar hvort gefin tala sé gild sem best-of gildi.
  * @param {number} bestOf Tala sem skal athuga
