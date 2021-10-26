@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "browser-sync start --server --files scripts.js index.html",
-    "copy": "cpy ./*.js ./build/",
+    "copy": "cpy ./*.html ./build/",
     "build": "npm:copy"
   },
   "keywords": [],
